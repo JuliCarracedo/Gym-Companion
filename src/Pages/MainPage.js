@@ -5,10 +5,6 @@ import UserCard from '../UserCard';
 const MainPage = () => (
   <div className="main-page">
     <UserCard />
-    <nav className="bottom">
-      <NavLink> Profile </NavLink>
-      <NavLink> Configuration </NavLink>
-    </nav>
   </div>
 );
 
