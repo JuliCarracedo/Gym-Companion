@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import RoutinesCard from '../RoutinesCard';
 import UserCard from '../UserCard';
 
