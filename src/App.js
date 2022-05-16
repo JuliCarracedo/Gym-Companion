@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './Pages/MainPage';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path='/' element={MainPage}/>
+          <Route exact path="/" element={MainPage} />
         </Routes>
       </Router>
     </div>
