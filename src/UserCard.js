@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
-  BigCard, BigCardInner, BlueButton, RedButton,
+  BigCard, BigCardButtons, BigCardInner, BlueButton, RedButton,
 } from './StyledComponents/styledComponents';
 
 const UserCard = () => (
@@ -13,10 +13,10 @@ const UserCard = () => (
         <h4>email@email.com</h4>
       </div>
     </BigCardInner>
-    <nav className="bottom">
+    <BigCardButtons className="bottom">
       <NavLink to="profile"><RedButton>Profile</RedButton></NavLink>
       <NavLink to="config"><BlueButton>Configuration</BlueButton></NavLink>
-    </nav>
+    </BigCardButtons>
   </BigCard>
 );
 

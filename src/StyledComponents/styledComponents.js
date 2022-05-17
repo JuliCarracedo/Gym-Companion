@@ -3,12 +3,12 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   padding: 1em;
   height: max-content;
-  background: whitesmoke;
+  background: lightblue;
   display: flex;
   flex-direction: column;
   font-family: Arial;
   font-size: 1em;
-  height: 100%
+  height: 100%;
 `;
 
 export const BigCard = styled.div`
@@ -28,13 +28,19 @@ export const BigCardInner = styled.div`
     justify-content: space-between;
 `;
 
+export const BigCardButtons = styled.nav`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+`;
+
 export const RedButton = styled.button`
     padding: 1em;
     margin: 0.5em;
     background: red;
     border-radius: 10px;
     border-width: 0;
-    width: 44%;
+    width: 35vw;
 `;
 
 export const BlueButton = styled.button`
@@ -43,7 +49,7 @@ export const BlueButton = styled.button`
     background: dodgerblue;
     border-radius: 10px;
     border-width: 0;
-    width: 44%;
+    width: 35vw;
 `;
 
 export const BlueSmallCard = styled.div`
