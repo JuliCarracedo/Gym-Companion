@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 `;
 
 export const BigCard = styled.div`
-    padding: 2em;
+    padding: 1em;
     margin: 1em 0;
     background: lightskyblue;
     border-radius: 10px;
@@ -34,7 +34,7 @@ export const RedButton = styled.button`
     background: red;
     border-radius: 10px;
     border-width: 0;
-    width: 45%;
+    width: 44%;
 `;
 
 export const BlueButton = styled.button`
@@ -43,7 +43,7 @@ export const BlueButton = styled.button`
     background: dodgerblue;
     border-radius: 10px;
     border-width: 0;
-    width: 45%;
+    width: 44%;
 `;
 
 export const BlueSmallCard = styled.div`
