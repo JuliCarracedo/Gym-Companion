@@ -1,11 +1,12 @@
 .profile-pic {
-  width: 8rem;
-  height: 8rem;
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
-  padding: 1rem;
+  padding: 5vw;
 }
 
 .icon {
+  fill: whitesmoke;
   width: 5rem;
   height: 5rem;
 }

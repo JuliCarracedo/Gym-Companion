@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
+  color: whitesmoke;
   padding: 1em;
   height: max-content;
-  background: lightblue;
+  background: #1a0315;
   display: flex;
   flex-direction: column;
   font-family: Arial;
@@ -14,7 +15,7 @@ const Wrapper = styled.div`
 export const BigCard = styled.div`
     padding: 1em;
     margin: 1em 0;
-    background: lightskyblue;
+    background: #88d317;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -25,49 +26,42 @@ export const BigCard = styled.div`
 export const BigCardInner = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    color: black;
+    font-size: 20px;
 `;
-
 export const BigCardButtons = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 `;
 
-export const RedButton = styled.button`
+export const PrimaryButton = styled.button`
+    font-size: 20px;
     padding: 1em;
     margin: 0.5em;
-    background: red;
+    color: whitesmoke;
+    background: #6e3667;
     border-radius: 10px;
     border-width: 0;
     width: 35vw;
 `;
 
-export const BlueButton = styled.button`
+export const SecondaryButton = styled.button`
+font-size: 20px;
+
     padding: 1em;
     margin: 0.5em;
-    background: dodgerblue;
+    color: whitesmoke;
+    background: #535353;
     border-radius: 10px;
     border-width: 0;
     width: 35vw;
 `;
 
-export const BlueSmallCard = styled.div`
+export const SmallCard = styled.div`
     padding: 2em;
     margin: 1em 0;
-    background: dodgerblue;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    height: 10vh;
-    justify-content: space-between;
-    align-items: center
-`;
-
-export const RedSmallCard = styled.div`
-    padding: 2em;
-    margin: 1em 0;
-    background: red;
+    background: #6e3667;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
