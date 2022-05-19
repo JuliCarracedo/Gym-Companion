@@ -57,11 +57,17 @@ export const SmallCard = styled.div`
     padding: 2em;
     margin: 0.5em 1em;
     background: #d9610c;
+    color: whitesmoke;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     height: 10vh;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    &:hover {
+        color: whitesmoke;
+        background-color: #c2570a ;
+    }
 `;
 
 export default Wrapper;

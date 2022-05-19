@@ -10,6 +10,11 @@
   width: 5rem;
   height: 5rem;
 }
+
 .user-info {
   justify-content: end;
+}
+
+a {
+  text-decoration: none;
 }

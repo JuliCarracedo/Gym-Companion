@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import RoutinesCard from '../RoutinesCard';
 import Wrapper from '../StyledComponents/styledComponents';
 import TrainerCard from '../TrainerCard';
@@ -13,8 +14,8 @@ const MainPage = () => {
       {logged ? (
         <>
           <UserCard />
-          <RoutinesCard />
-          <TrainerCard />
+          <NavLink to="/routines"><RoutinesCard /></NavLink>
+          <NavLink to="/trainer"><TrainerCard /></NavLink>
         </>
       )
         : <UnloggedCard login={setLogged} />}

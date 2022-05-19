@@ -2,7 +2,7 @@ import React from 'react';
 import { SmallCard } from './StyledComponents/styledComponents';
 
 const TrainerCard = () => (
-  <SmallCard className="routines-card">
+  <SmallCard className="small-card">
     <h2>My Trainer</h2>
     <svg className="icon" version="1.1" viewBox="0 0 297 297">
       <path d="M49.836,213.635c15.434,15.435,35.98,23.827,57.799,23.557c43.853-0.485,79.529-37.081,79.529-81.577v-27.99c0-4.837,3.922-8.759,8.76-8.759h92.677c4.631,0,8.399-3.767,8.399-8.398v-25.76c0-4.631-3.768-8.399-8.399-8.399H137.695V107.6c0,6.047-4.903,10.949-10.949,10.949c-6.047,0-10.949-4.903-10.949-10.949V76.308h-7.938c-44.495,0-81.091,35.676-81.578,79.528C26.038,177.675,34.404,198.202,49.836,213.635z" />
