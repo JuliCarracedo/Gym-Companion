@@ -11,6 +11,9 @@ const UserCard = () => (
       <div className="user-info">
         <h2>USERNAME</h2>
         <h4>email@email.com</h4>
+        <h6>25 Years</h6>
+        <h6>86.5 kg</h6>
+        <h6>192.5 cm</h6>
       </div>
     </BigCardInner>
     <BigCardButtons className="bottom">

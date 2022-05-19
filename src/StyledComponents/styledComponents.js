@@ -18,13 +18,14 @@ export const BigCard = styled.div`
     display: flex;
     flex-direction: column;
     height: 40vh;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 0.5em;
 `;
 
 export const BigCardInner = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 `;
 export const BigCardButtons = styled.nav`
     display: flex;
@@ -39,7 +40,7 @@ export const PrimaryButton = styled.button`
     background: #166650;
     border-radius: 10px;
     border-width: 0;
-    width: 35vw;
+    width: 40vw;
 `;
 
 export const SecondaryButton = styled.button`
@@ -49,7 +50,7 @@ export const SecondaryButton = styled.button`
     background: #225441;
     border-radius: 10px;
     border-width: 0;
-    width: 35vw;
+    width: 40vw;
 `;
 
 export const SmallCard = styled.div`
