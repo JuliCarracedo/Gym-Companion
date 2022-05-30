@@ -22,6 +22,25 @@ export const BigCard = styled.div`
     margin-bottom: 0.5em;
 `;
 
+export const BigHeader = styled.div`
+    padding: 1em;
+    background: #12b69a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5em;
+    svg{
+        justify-self: baseline;
+        height: 20px;
+        width: 20px;
+    }
+    h2{
+        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+`;
+
 export const BigCardInner = styled.div`
     display: flex;
     flex-direction: row;
