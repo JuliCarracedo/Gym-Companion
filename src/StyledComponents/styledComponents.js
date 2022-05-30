@@ -17,8 +17,8 @@ export const BigCard = styled.div`
     background: #12b69a;
     display: flex;
     flex-direction: column;
-    height: 40vh;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 0.5em;
 `;
 
